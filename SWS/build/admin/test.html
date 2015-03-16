@@ -1,0 +1,23 @@
+<html>
+<head>
+<!-- Place inside the <head> of your HTML -->
+<script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+function SWSFileBrowser(){
+alert('hello');
+}
+
+tinymce.init({
+    selector: "textarea",
+    plugins: "image",
+    file_browser_callback: 'SWSFileBrowser'
+ });
+</script>
+</head>
+<body>
+<!-- Place this in the body of the page content -->
+<form method="post">
+    <textarea></textarea>
+</form>
+</body>
+</html>
