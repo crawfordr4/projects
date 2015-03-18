@@ -21,6 +21,22 @@ namespace __ditto_compiler{
 		LONG_DOUBLE,
 		POINTER
 	};
+
+    enum {
+        BYTESIZE = 1,
+        CHARACTER_SIZE = 1,
+        UNSIGNED_SHORT_SIZE = 2,
+        SHORT_SIZE = 2,
+        UNSIGNED_INTEGER_SIZE = 4,
+        INTEGER_SIZE = 4,
+        UNSIGNED_LONG_SIZE = 8,
+        LONG_SIZE = 8,
+        UNSIGNED_FLOAT_SIZE = 4,
+        FLOAT_SIZE = 4,
+        DOUBLE_SIZE = 8,
+        LONG_DOUBLE_SIZE = 16,
+        POINTER_SIZE = 8
+    };
 	
 	typedef unsigned char byte;
 };
